@@ -1,0 +1,16 @@
+drop VIEW najnowsza_Recepta;
+drop view cena_recepty;
+drop view najpopularniejsze_Leki_Lekarza;
+drop view Zamienniki_recepty;
+DROP TABLE Apteka_Pacjent CASCADE CONSTRAINTS;
+drop table Apteka_Lekarz cascade constraints;
+drop table Apteka_Recepta cascade constraints;
+drop table Apteka_Pozycja_Recepty cascade constraints;
+drop table Apteka_Lek cascade constraints;
+drop table Apteka_Producent cascade constraints;
+drop table Apteka_Zamiennik cascade constraints;
+drop SEQUENCE seq_Lekarz_id;
+drop sequence seq_pacjent_id;
+drop sequence seq_producent_id;
+drop sequence seq_lek_id;
+drop sequence seq_recepta_id;
